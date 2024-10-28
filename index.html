@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Showcase</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Bootstrap Showcase</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section text-center text-white">
+    <div class="container">
+      <h1 class="display-3 fw-bold">Welcome to Bootstrap Showcase</h1>
+      <p class="lead">A stunning showcase of the best Bootstrap features and components.</p>
+      <a href="#features" class="btn btn-outline-light btn-lg">Explore Features</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Features</h2>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card shadow-sm border-0 h-100">
+            <div class="card-body text-center">
+              <div class="feature-icon bg-primary mb-3">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <h5 class="card-title">Responsive Design</h5>
+              <p class="card-text">Our layouts are designed to be responsive, ensuring a seamless experience on any device.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card shadow-sm border-0 h-100">
+            <div class="card-body text-center">
+              <div class="feature-icon bg-success mb-3">
+                <i class="bi bi-speedometer2"></i>
+              </div>
+              <h5 class="card-title">High Performance</h5>
+              <p class="card-text">Optimized for speed and performance for an exceptional browsing experience.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card shadow-sm border-0 h-100">
+            <div class="card-body text-center">
+              <div class="feature-icon bg-warning mb-3">
+                <i class="bi bi-lock"></i>
+              </div>
+              <h5 class="card-title">Secure</h5>
+              <p class="card-text">Our site uses advanced security protocols to ensure data privacy and integrity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Pricing Plans</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="card shadow-sm border-primary">
+            <div class="card-header bg-primary text-white">Basic</div>
+            <div class="card-body">
+              <h5 class="card-title">$10 / month</h5>
+              <ul class="list-unstyled">
+                <li>Basic features</li>
+                <li>Email support</li>
+                <li>Access to all updates</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm border-success">
+            <div class="card-header bg-success text-white">Standard</div>
+            <div class="card-body">
+              <h5 class="card-title">$25 / month</h5>
+              <ul class="list-unstyled">
+                <li>Standard features</li>
+                <li>Priority support</li>
+                <li>Access to all updates</li>
+              </ul>
+              <a href="#" class="btn btn-success">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm border-warning">
+            <div class="card-header bg-warning text-white">Premium</div>
+            <div class="card-body">
+              <h5 class="card-title">$50 / month</h5>
+              <ul class="list-unstyled">
+                <li>All features</li>
+                <li>Dedicated support</li>
+                <li>Access to all updates</li>
+              </ul>
+              <a href="#" class="btn btn-warning">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-dark text-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact Us</h2>
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white text-center py-3">
+    <div class="container">
+      <p>&copy; 2023 Bootstrap Showcase. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
